@@ -27,9 +27,20 @@
         </h2>
 
         <form class="js-form">
-            <input>
-            <input>
-
+            <div>
+                <input type="number" name="weight" min="0" oninput="validity.valid||(value='');" class="js-weight"
+                    required>
+                <span>
+                    kg
+                </span>
+            </div>
+            <div>
+                <input type="number" name="height" min="0" oninput="validity.valid||(value='');" class="js-height"
+                    required>
+                <span>
+                    cm
+                </span>
+            </div>
             <button>
                 Calculate BMI
             </button>
@@ -40,6 +51,7 @@
         <h2>
             Your BMI is:
         </h2>
+        <p></p>
     </section>
 
 </body>
