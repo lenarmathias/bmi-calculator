@@ -1,6 +1,10 @@
 .section__separateContainer {
     background-color: #ffffff;
-    margin: 10px;
+    margin-top: 10px;
     padding: 20px;
     box-shadow: 0px 0px 10px 0px #00000060;
+}
+
+.section__separateContainer:first-of-type {
+    margin-top: 50px;
 }
