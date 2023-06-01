@@ -23,16 +23,16 @@
     const bmiCategory = (result, categoryResult) => {
         switch (true) {
             case (result < 18.5):
-                categoryResult.innerText = "Underweight";
+                categoryResult.innerHTML = `<span class="section__resultText--blue">Underweight</span>`;
                 break;
             case (result >= 18.5 && result <= 24.9):
-                categoryResult.innerText = "Normal weight";
+                categoryResult.innerHTML = `<span class="section__resultText--green">Normal weight</span>`;
                 break;
             case (result >= 25 && result <= 29.9):
-                categoryResult.innerText = "Overweight";
+                categoryResult.innerHTML = `<span class="section__resultText--orange">Overweight</span>`;
                 break;
             case (result >= 30):
-                categoryResult.innerText = "Obesity";
+                categoryResult.innerHTML = `<span class="section__resultText--red">Obesity</span>`;
                 break;
         }
     };

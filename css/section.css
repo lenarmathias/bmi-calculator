@@ -13,3 +13,31 @@
     margin-top: 0;
     font-size: 20px;
 }
+
+.section__heading--zeroMargin {
+    margin-bottom: 0;
+}
+
+.section__resultText {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.section__resultText--blue {
+    color: #0000ff;
+}
+
+.section__resultText--green {
+    color: #008000;
+}
+
+.section__resultText--orange {
+    color: #ffa500;
+}
+
+.section__resultText--red {
+    color: #ff0000;
+}
