@@ -17,6 +17,14 @@ This is a simple BMI (Body Mass Index) calculator project created for the purpos
 
 ---
 
+## Demo
+
+You can find the live version of my To-Do List project on GitHub Pages here:
+
+https://lenarmathias.github.io/bmi-calculator/
+
+---
+
 ## Contact
 
 If you have any questions or feedback regarding this project, please feel free to contact me:
