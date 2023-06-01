@@ -8,3 +8,8 @@
 .section__separateContainer:first-of-type {
     margin-top: 50px;
 }
+
+.section__heading {
+    margin-top: 0;
+    font-size: 20px;
+}
