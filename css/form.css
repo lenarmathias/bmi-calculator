@@ -3,6 +3,22 @@
     grid-gap: 10px;
 }
 
+.form__input {
+    width: 120px;
+    padding: 5px;
+    text-align: right;
+}
+
+.form__input::-webkit-outer-spin-button,
+.form__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form__input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .form__button {
     width: 50%;
     background: linear-gradient(gold, goldenrod);
