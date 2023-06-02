@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(gold, goldenrod);
+    background: linear-gradient(#ffd700, #daa520);
     width: 100vw;
     height: 40px;
     position: fixed;

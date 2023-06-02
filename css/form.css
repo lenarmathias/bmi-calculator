@@ -21,10 +21,16 @@
 
 .form__button {
     width: 50%;
-    background: linear-gradient(gold, goldenrod);
+    background: linear-gradient(#ffd700, #daa520);
     border: none;
     font-weight: 700;
     padding: 5px;
+    transition: 1s;
+}
+
+.form__button:hover {
+    background: linear-gradient(#f7e267, #eab93e);
+    transform: scale(1.1);
 }
 
 @media (max-width: 767px) {
