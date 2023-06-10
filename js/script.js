@@ -1,10 +1,4 @@
 {
-    const appStartFocus = () => {
-        const firstInput = document.querySelector(".js-weight");
-
-        firstInput.focus();
-    };
-
     const resetAll = () => {
         const resultSection = document.querySelector(".js-resultSection");
         const suggestionSection = document.querySelector(".js-suggestionSection");
@@ -81,8 +75,6 @@
     };
 
     const init = () => {
-        window.addEventListener("DOMContentLoaded", appStartFocus);
-
         const form = document.querySelector(".js-form");
 
         form.addEventListener("submit", onFormSubmit);
